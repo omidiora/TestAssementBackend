@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'api',
     'rest_framework',
+    
 ]
 
 MIDDLEWARE = [
@@ -82,8 +83,14 @@ WSGI_APPLICATION = 'TestAssesment.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbtest', 
+        'USER': 'postgres', 
+        'DATABASE':'d3te1ce1qnb65',
+        'PASSWORD': 'ba91462f5763522930abf2d8936e177639e3c44b5b47d0e44c09b1530e70e582',
+        'HOST': 'ec2-54-160-7-200.compute-1.amazonaws.com'
+        'PORT': '5432',
+       
     }
 }
 
