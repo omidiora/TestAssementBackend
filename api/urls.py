@@ -13,4 +13,4 @@ router.register('', PersonalViewSet)
 
 urlpatterns = [
     path('personalinfo', include(router.urls))
-]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
