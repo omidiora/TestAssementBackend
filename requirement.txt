@@ -1,3 +1,4 @@
+django-heroku
 appdirs==1.4.3
 asgiref==3.3.1
 CacheControl==0.12.6
