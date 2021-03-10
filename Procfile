@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn TestAssesment.wsgi:application --log-file - --log-level debug
