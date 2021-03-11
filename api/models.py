@@ -8,7 +8,7 @@ class personalInfo(models.Model):
     firstname = models.CharField(max_length=50 )
     lastname = models.CharField(max_length=50, blank=True)
     email = models.EmailField(max_length=100 ,)
-    contact = models.IntegerField( blank=True )
+    contact = models.CharField( blank=True )
     company = models.CharField(max_length=100 , blank=True)
     interested =models.CharField(max_length=100,    blank=True )
     budget=models.CharField(max_length=100, blank=True ,)
