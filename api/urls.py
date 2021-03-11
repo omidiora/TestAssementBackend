@@ -10,5 +10,5 @@ router = routers.DefaultRouter()
 router.register('', PersonalViewSet)
 
 urlpatterns = [
-    path('personalinfo', include(router.urls))
+    path('', include(router.urls))
 ]
